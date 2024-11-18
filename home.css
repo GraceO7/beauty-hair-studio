@@ -714,7 +714,7 @@ gap: 4rem;
         height: 50vh;
     } 
 }
-@media(max-width:1124px) and (min-width:768px){
+@media (min-width:768px){
     
     .abt.container{
         text-align: center;
@@ -754,10 +754,16 @@ gap: 4rem;
 
 }
 }
-@media(min-width:1200px){
+@media(max-width:1200px){
     .abt.container{
         width: 100%;
-    flex-direction: row;        
+    flex-direction: row;      
+   gap:0;  
+    }
+    .img{
+        margin: 0 100px;
+        width: 50%;
+        height: 50vh;
     }
     
     
