@@ -754,20 +754,7 @@ gap: 4rem;
 
 }
 }
-@media(max-width:1200px){
-    .abt.container{
-        width: 100%;
-    flex-direction: row;      
-   gap:0;  
-    }
-    .img{
-        margin: 0 100px;
-        width: 50%;
-        height: 50vh;
-    }
-    
-    
-}
+
 @media(min-width:789px) and(max-width:1199px){
 
     .abt .container{
