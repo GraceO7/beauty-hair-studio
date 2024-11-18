@@ -413,7 +413,7 @@ font-size: 1.5em;
 
     
 }
-@media(min-width:708px) and (max-width:891px){
+@media(min-width:1208px) and (max-width:891px){
     
 .services .box-container{
     display: grid;
