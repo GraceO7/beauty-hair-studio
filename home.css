@@ -413,7 +413,22 @@ font-size: 1.5em;
 
     
 }
-@media(min-width:1208px) and (max-width:1291px){
+@media(max-width:1108px){
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+}
+.services .box{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+  cursor: pointer;
+
+}
+}
+@media(min-width:768px) and (max-width:868px){
     
 .services .box-container{
     display: grid;
