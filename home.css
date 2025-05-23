@@ -847,13 +847,14 @@ form input{
 }
 form input:last-child{
     color: var(--primary-hover);
-    /* font-size: 2em; */
+  
 
 }
 form input:last-child:hover{
     cursor: pointer;
     transition: all .4s ease;
     background-color: var(--primary-color);
+text-align:center;
 }
 form input::placeholder, textarea::placeholder{
     color: var(--primary-hover);
