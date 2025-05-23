@@ -215,12 +215,13 @@ section{
 }
 .home-btn{
     width: 200px;
+    display:inline-block;
     font-size: 1.5em;
     padding: 10px;
     font-size: 2em;
     margin-top: 30px;
     text-transform: uppercase;
-    /* margin: 100px; */
+   border-radius:10px;
     background-color: var(--primary-hover);
     color:var(--secondary-color);
 }
